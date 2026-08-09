@@ -93,19 +93,29 @@ RViz Publish Point
     goal_client
         │
         ▼
-/turtlebot/move_to_position
+Service Request
+(/turtlebot/move_to_position)
         │
         ▼
 navigation_service_server
         │
         ▼
-NavigateToPose Action
+NavigateToPose Action Goal
         │
         ▼
-       Nav2
+      Nav2
         │
         ▼
-      Robot
+   Robot Moves
+        │
+        ▼
+   Goal Reached
+        │
+        ▼
+response.success = True
+        │
+        ▼
+goal_client receives True
 ```
 
 ---
@@ -115,15 +125,40 @@ NavigateToPose Action
 ```text
 turtlebot_control/
 │
+├── config/
+│   ├── nav_param.yaml
+│   └── tunning_param.yaml
+│
+├── images/
+│   ├── final_result.png
+│   ├── gazebo.png
+│   ├── run_command.png
+│   ├── rviz.png
+│   ├── task_1.png
+│   └── terminal_commands.png
+│
+├── include/
+│   └── turtlebot_control/
+│
 ├── launch/
+│   ├── display.launch.py
+│   └── nav.launch.py
+│
+├── map/
+│   ├── my_map.pgm
+│   └── my_map.yaml
 │
 ├── scripts/
-│   ├── velocity_forwarder.py
+│   ├── velocity_publisher.py
 │   ├── goal_client.py
 │   └── navigation_service_server.py
 │
 ├── srv/
 │   └── MoveToTarget.srv
+│
+├── urdf/
+│
+├── world/
 │
 ├── package.xml
 ├── setup.py
