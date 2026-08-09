@@ -474,11 +474,11 @@ Support multiple navigation requests and automatic goal scheduling.
 ![Task 1](src/turtlebot_control/images/task_1.png)
 
 ### Task2
-![Task 1](src/turtlebot_control/images/gazebo.png)
-![Task 1](src/turtlebot_control/images/rviz.png)
-![Task 1](src/turtlebot_control/images/terminal_commands.png)
-![Task 1](src/turtlebot_control/images/run_command.png)
-![Task 1](src/turtlebot_control/images/final_result.png)
+![Task 2](src/turtlebot_control/images/gazebo.png)
+![Task 2](src/turtlebot_control/images/rviz.png)
+![Task 2](src/turtlebot_control/images/terminal_commands.png)
+![Task 2](src/turtlebot_control/images/run_command.png)
+![Task 2](src/turtlebot_control/images/final_result.png)
 
 ---
 
