@@ -469,7 +469,7 @@ Support multiple navigation requests and automatic goal scheduling.
 
 # Demo
 
-![Task 1](src/turtlebot_control/images/task1.png)
+![Task 1](src/turtlebot_control/images/task_1.png)
 
 ---
 
